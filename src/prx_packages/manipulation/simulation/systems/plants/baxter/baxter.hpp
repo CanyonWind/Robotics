@@ -42,7 +42,9 @@ namespace prx
                 /** @copydoc plant_t::init(const util::parameter_reader_t *, const util::parameter_reader_t*) */
                 virtual void init(const util::parameter_reader_t * reader, const util::parameter_reader_t* template_reader = NULL);
 
-                virtual bool IK_fast_solver( util::space_point_t* result_state, const util::config_t& goal_config);
+                virtual int IK_fast_solver( util::space_point_t* result_state, double data_100[][12]);
+		
+		virtual void FK_generate_config_data(double data_100[][12]);
 
               protected:
 
