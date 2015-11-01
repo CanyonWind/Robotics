@@ -1,0 +1,2 @@
+prx_simulation:prx_utilities:prx_visualization
+-DCATKIN_DEVEL_PREFIX=/home/parallels/Desktop/ROS_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/parallels/Desktop/ROS_workspace/install -G Unix Makefiles

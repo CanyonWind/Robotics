@@ -1,0 +1,3 @@
+/home/parallels/Desktop/ROS_workspace/src/prx_external/CMakeFiles/ANN.dir
+/home/parallels/Desktop/ROS_workspace/src/prx_external/CMakeFiles/PQP.dir
+/home/parallels/Desktop/ROS_workspace/src/prx_external/CMakeFiles/PRXPNG.dir

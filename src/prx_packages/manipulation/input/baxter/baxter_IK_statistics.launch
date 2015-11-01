@@ -1,0 +1,11 @@
+<launch>  
+  <rosparam command="load" file="$(find prx_input)/templates/spaces/space_types.yaml"/>
+
+  <rosparam command="load" ns="simulation/baxter" file="$(find manipulation)/input/baxter/baxter.yaml"/>
+
+
+  <node name="simulation" pkg="prx_simulation" type="prx_ik_stats"
+        required="true"   launch-prefix="" output="screen" args="simulation"/>
+
+  
+</launch>

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "prx_visualization")
+set(prx_visualization_MAINTAINER "Kostas Bekris <kostas.bekris@cs.rutgers.edu>")
+set(prx_visualization_DEPRECATED "")
+set(prx_visualization_VERSION "0.4.2")
+set(prx_visualization_BUILD_DEPENDS "cmake_modules" "roscpp" "rospy" "roslib" "prx_utilities" "geometry_msgs" "boost" "tf" "pluginlib" "class_loader" "sensor_msgs" "osg")
+set(prx_visualization_RUN_DEPENDS "cmake_modules" "roscpp" "rospy" "roslib" "prx_utilities" "geometry_msgs" "boost" "tf" "pluginlib" "class_loader" "sensor_msgs" "osg" "message_runtime")
+set(prx_visualization_BUILDTOOL_DEPENDS "catkin")

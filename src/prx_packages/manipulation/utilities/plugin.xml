@@ -1,0 +1,99 @@
+<class name="prx_utilities/motoman_left_torso_state_mapping"
+    type="prx::packages::manipulation::motoman_left_torso_state_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full motoman state space into just the left arm and torso.
+    </description>        
+</class>
+<class name="prx_utilities/motoman_left_torso_control_mapping"
+    type="prx::packages::manipulation::motoman_left_torso_control_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full motoman control space into just the left arm and torso.
+    </description>        
+</class>
+<class name="prx_utilities/motoman_left_arm_state_mapping"
+    type="prx::packages::manipulation::motoman_left_arm_state_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full motoman state space into just the left arm.
+    </description>        
+</class>
+<class name="prx_utilities/motoman_left_arm_control_mapping"
+    type="prx::packages::manipulation::motoman_left_arm_control_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full motoman control space into just the left arm.
+    </description>        
+</class>
+<class name="prx_utilities/motoman_left_gripper_state_mapping"
+    type="prx::packages::manipulation::motoman_left_gripper_state_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full motoman state space into just the left gripper.
+    </description>        
+</class>
+<class name="prx_utilities/motoman_left_gripper_control_mapping"
+    type="prx::packages::manipulation::motoman_left_gripper_control_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full motoman control space into just the left gripper.
+    </description>        
+</class>
+
+<class name="prx_utilities/motoman_right_torso_state_mapping"
+    type="prx::packages::manipulation::motoman_right_torso_state_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full motoman state space into just the right arm and torso.
+    </description>        
+</class>
+<class name="prx_utilities/motoman_right_torso_control_mapping"
+    type="prx::packages::manipulation::motoman_right_torso_control_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full motoman control space into just the right arm and torso.
+    </description>        
+</class>
+<class name="prx_utilities/motoman_right_arm_state_mapping"
+    type="prx::packages::manipulation::motoman_right_arm_state_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full motoman state space into just the right arm.
+    </description>        
+</class>
+<class name="prx_utilities/motoman_right_arm_control_mapping"
+    type="prx::packages::manipulation::motoman_right_arm_control_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full motoman control space into just the right arm.
+    </description>        
+</class>
+<class name="prx_utilities/motoman_right_gripper_state_mapping"
+    type="prx::packages::manipulation::motoman_right_gripper_state_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full motoman state space into just the right gripper.
+    </description>        
+</class>
+<class name="prx_utilities/motoman_right_gripper_control_mapping"
+    type="prx::packages::manipulation::motoman_right_gripper_control_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full motoman control space into just the right gripper.
+    </description>        
+</class>
+<class name="prx_utilities/baxter_left_arm_state_mapping"
+    type="prx::packages::manipulation::baxter_left_arm_state_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full baxter state space into just the left arm.
+    </description>        
+</class>
+<class name="prx_utilities/baxter_left_arm_control_mapping"
+    type="prx::packages::manipulation::baxter_left_arm_control_mapping_t"
+    base_class_type="prx::util::mapping_function_t">
+    <description>
+        Map the full baxter control space into just the left arm.
+    </description>        
+</class>

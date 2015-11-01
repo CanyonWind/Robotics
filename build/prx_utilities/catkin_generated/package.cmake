@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "prx_utilities")
+set(prx_utilities_MAINTAINER "Kostas Bekris <kostas.bekris@cs.rutgers.edu>")
+set(prx_utilities_DEPRECATED "")
+set(prx_utilities_VERSION "0.4.2")
+set(prx_utilities_BUILD_DEPENDS "roscpp" "rosconsole" "geometry_msgs" "tf" "pluginlib" "boost" "rospy" "roslib" "message_generation" "std_msgs" "class_loader" "cmake_modules")
+set(prx_utilities_RUN_DEPENDS "cmake_modules" "roscpp" "rosconsole" "geometry_msgs" "tf" "pluginlib" "boost" "rospy" "roslib" "message_generation" "std_msgs" "message_runtime" "class_loader")
+set(prx_utilities_BUILDTOOL_DEPENDS "catkin")

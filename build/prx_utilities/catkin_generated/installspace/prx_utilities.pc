@@ -1,0 +1,8 @@
+prefix=/home/parallels/Desktop/ROS_workspace/install
+
+Name: prx_utilities
+Description: Description of prx_utilities
+Version: 0.4.2
+Cflags: -I/home/parallels/Desktop/ROS_workspace/install/include -I/usr/include
+Libs: -L/home/parallels/Desktop/ROS_workspace/install/lib -lprx_utilities -l:/usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: roscpp rospy roslib message_generation geometry_msgs std_msgs message_runtime class_loader tf

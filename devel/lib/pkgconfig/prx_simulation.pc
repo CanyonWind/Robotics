@@ -1,0 +1,8 @@
+prefix=/home/parallels/Desktop/ROS_workspace/devel
+
+Name: prx_simulation
+Description: Description of prx_simulation
+Version: 0.4.2
+Cflags: -I/home/parallels/Desktop/ROS_workspace/devel/include -I/home/parallels/Desktop/ROS_workspace/src/prx_simulation/prx -I/usr/include -I/opt/ros/indigo/include
+Libs: -L/home/parallels/Desktop/ROS_workspace/devel/lib -lprx_simulation_lib -l:/opt/ros/indigo/lib/liboctomap.so -l:/opt/ros/indigo/lib/liboctomath.so -l:/usr/lib/liblapack.so
+Requires: roscpp rospy roslib message_generation geometry_msgs std_msgs message_runtime class_loader tf prx_utilities kdl_parser

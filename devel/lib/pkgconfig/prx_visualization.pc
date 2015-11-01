@@ -1,0 +1,8 @@
+prefix=/home/parallels/Desktop/ROS_workspace/devel
+
+Name: prx_visualization
+Description: Description of prx_visualization
+Version: 0.4.2
+Cflags: -I/home/parallels/Desktop/ROS_workspace/src/prx_visualization/prx
+Libs: -L/home/parallels/Desktop/ROS_workspace/devel/lib -lprx_visualization_lib
+Requires: roscpp rospy roslib geometry_msgs message_runtime class_loader tf prx_utilities

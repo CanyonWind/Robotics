@@ -1,0 +1,39 @@
+<class name="prx_planning/manipulation_world_model"
+    type="prx::packages::manipulation::manipulation_world_model_t"
+    base_class_type="prx::plan::world_model_t">
+    <description>
+        A world model which deals with the manipulation problems.
+    </description>        
+</class>
+
+<class name="prx_planning/manipulation_tp"
+    type="prx::packages::manipulation::manipulation_tp_t"
+    base_class_type="prx::plan::planner_t">
+    <description>
+        A task planner for a simple manipulation problem.
+    </description>        
+</class>
+
+<class name="prx_planning/grasping_planner"
+    type="prx::packages::manipulation::grasping_planner_t"
+    base_class_type="prx::plan::planner_t">
+    <description>
+        A planner for dealing with grasping an object.
+    </description>        
+</class>
+
+<class name="prx_planning/grasping_module"
+    type="prx::packages::manipulation::grasping_module_t"
+    base_class_type="prx::plan::planner_t">
+    <description>
+        The grasping module for computing the valid grasps. 
+    </description>        
+</class>
+
+<class name="prx_planning/manipulation_query"
+    type="prx::packages::manipulation::manipulation_query_t"
+    base_class_type="prx::plan::query_t">
+    <description>
+        The query for the manipulation problem.
+    </description>        
+</class>

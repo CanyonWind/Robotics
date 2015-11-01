@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "hodor")
+set(hodor_MAINTAINER "rahul <rahul@todo.todo>")
+set(hodor_DEPRECATED "")
+set(hodor_VERSION "0.0.0")
+set(hodor_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(hodor_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(hodor_BUILDTOOL_DEPENDS "catkin")

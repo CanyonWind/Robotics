@@ -1,0 +1,2 @@
+set(prx_simulation_MESSAGE_FILES "msg/manipulation_acknowledgement.msg;msg/plan_msg.msg;msg/interval_msg.msg;msg/query_msg.msg;msg/graph_msg.msg;msg/state_msg.msg;msg/control_msg.msg;msg/plant_locations_msg.msg;msg/world_config_msg.msg;msg/lqr_msg.msg;msg/bomberman_info_msg.msg")
+set(prx_simulation_SERVICE_FILES "srv/request_ground_truth_srv.srv;srv/request_space_information_srv.srv;srv/send_lqr_srv.srv;srv/set_sim_state_srv.srv;srv/send_plans_srv.srv")

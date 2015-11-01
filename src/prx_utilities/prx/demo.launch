@@ -1,0 +1,35 @@
+
+<launch>
+<rosparam command="load" file="$(find prx_input)/templates/spaces/space_types.yaml"/>
+<node name="utilities" pkg="prx_utilities" type="prx_utilities_demo" required="true" output="screen" launch-prefix=""/>
+<rosparam>
+utilities:
+  application:
+    type: demo_application
+
+  relative_configuration:
+    position: [1.5, 0, 0]
+    orientation: [0, 0, 0, 1]
+</rosparam>
+
+<rosparam command="load" ns="utilities/simulator/subsystems/disk">
+geometries:
+ -
+   name: ball
+   collision_geometry:
+     type: sphere
+     radius: 1.5
+     material: red
+ -
+   name: rod
+   collision_geometry:
+     type: box
+     dims: [3, 0.5, 0.5]
+     material: blue
+
+</rosparam>
+
+
+
+<include file="$(find prx_input)/templates/visualization/visualization.launch"/>
+</launch>

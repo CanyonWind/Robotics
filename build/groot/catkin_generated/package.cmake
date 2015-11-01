@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "groot")
+set(groot_MAINTAINER "rahul <rahul@todo.todo>")
+set(groot_DEPRECATED "")
+set(groot_VERSION "0.0.0")
+set(groot_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(groot_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(groot_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/parallels/Desktop/ROS_workspace/devel
+
+Name: hodor
+Description: Description of hodor
+Version: 0.0.0
+Cflags: -I/home/parallels/Desktop/ROS_workspace/src/hodor/include
+Libs: -L/home/parallels/Desktop/ROS_workspace/devel/lib -lhodor
+Requires: roscpp rospy std_msgs
