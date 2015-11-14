@@ -1,0 +1,15 @@
+int32 MOVE=0
+int32 MOVE_AND_DETECT=1
+int32 PERFORM_GRASP=2
+int32 MOVE_TO_ORDER_BIN=3
+
+int32 stage
+string hand
+string object
+string bin
+float64[] goal_state
+float64[] object_state
+---
+bool success
+---
+float64 progress
